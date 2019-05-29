@@ -1,0 +1,11 @@
+%module event
+
+%{
+#include "event.hxx"
+%}
+%include <stdint.i>
+%include <std_string.i>
+%include <typemaps.i>
+%include "event.hxx"
+
+
